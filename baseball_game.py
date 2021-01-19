@@ -247,7 +247,7 @@ def main():
         if user_input == "0":
             break
         elif not is_validated_number(user_input):
-            print("Wrong Input, Input again")
+            print("WRONG INPUT, Input again")
             continue
 
         strike, ball = get_strikes_or_ball(user_input, random_number)
@@ -265,8 +265,8 @@ def main():
                 state = False
                 break
             else:
-                print("Wrong Input")
-                
+                print("WRONG INPUT")
+
         if not state:
             break
     # ==================================
